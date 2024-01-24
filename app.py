@@ -97,18 +97,18 @@ st.write("Die Summe ist ", summe)
   
 
 
+option = st.selectbox('was ist ihre Lieblingsfarbe?:', ['1. lila ', '2. rosa', '3. pink '])  
+st.write('Sie haben ausgewählt:', option) 
+
+
+
 if st.checkbox('Klicken Sie mich an!'):  
     st.write('Checkbox ist ausgewählt')  
 else:  
-    st.write('Checkbox ist nicht ausgewählt')  
-
-
-option = st.selectbox('Wählen Sie eine Option:', ['1', 'Option 2', 'Option 3'])  
-st.write('Sie haben ausgewählt:', option) 
+    st.write('Checkbox ist nicht ausgewählt') 
 
  
   
 
   
-
 
